@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Analyst Agent Test</title>
+</head>
+<body>
+    <h1>Data Analyst Agent Test Upload</h1>
+    <form action="http://127.0.0.1:8000/api/" method="post" enctype="multipart/form-data">
+        <label for="questions_txt">Questions File (required):</label>
+        <input type="file" name="questions_txt" id="questions_txt" required><br><br>
+        
+        <label for="files">Additional Files (optional):</label>
+        <input type="file" name="files" id="files" multiple><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

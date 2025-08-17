@@ -1,0 +1,18 @@
+DATA_SOURCES:
+- CSV: sales.csv (Monthly sales by region)
+- URL: Wikipedia GDP page: "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)"
+
+
+
+ANSWER_FORMAT:
+{
+  "answer": "...",
+  "charts": [
+    {"title": "...", "base64_image": "..."}
+  ]
+}
+
+QUESTIONS:
+1. From sales.csv, calculate total sales for each region.
+2. From sales.csv, generate a monthly sales line chart (base64).
+3. From the Wikipedia URL, list the top 5 countries by nominal GDP.
